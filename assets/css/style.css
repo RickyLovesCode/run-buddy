@@ -1,8 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Below CSS is for Header*/
 
 header {
 
@@ -48,10 +50,38 @@ header nav ul li a {
 
 
 
-
 body {
     
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+
+/* Below CSS is for Footer*/
+
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+
+}
+
+footer a {
+    color: #024e76;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div{
+
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+
 }
