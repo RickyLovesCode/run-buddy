@@ -84,6 +84,14 @@ section {
   padding: 60px;
 }
 
+.intro p {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -149,10 +157,6 @@ section {
   margin-bottom: 15px;
 }
 
-.intro {
-  text-align: center;
-}
-
 .steps {
   text-align: center;
   background: #fce138;
@@ -181,8 +185,10 @@ section {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
   border-bottom: 3px solid;
 }
 .primary-border {
@@ -205,10 +211,6 @@ section {
 
 .text-right {
   text-align: right;
-}
-
-.trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -248,7 +250,6 @@ section {
 
 /*reach out*/
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
